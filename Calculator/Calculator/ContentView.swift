@@ -101,7 +101,6 @@ struct ContentView: View {
         }
     }
     
-    
     func buttonWidth(button: CalculatorButton) -> CGFloat {
         
         if button == .zero {
@@ -150,3 +149,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView().environmentObject(GlobalEnvironment())
     }
 }
+
