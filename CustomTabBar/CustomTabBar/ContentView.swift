@@ -86,16 +86,7 @@ struct ContentView: View {
         }
     }
 }
-//TabView {
-//    Text("First")
-//        .tabItem {
-//            Image(systemName: "person")
-//            Text("First") }
-//    Text("Second")
-//        .tabItem {
-//            Image(systemName: "gear")
-//            Text("Second") }
-//}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
